@@ -14,6 +14,6 @@ export interface IVehicle {
   groundClearance: number;
   cylinderCapacity: number;
   torque: number;
-  gearbox: number;
+  gearbox: string;
   registrationCenter: string;
 }
