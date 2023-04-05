@@ -1,4 +1,4 @@
-export interface ICar {
+export interface IVehicle {
   _id?: string;
   registrationNumber: string;
   registrationDate: string;
