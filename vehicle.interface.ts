@@ -1,6 +1,8 @@
 export interface IVehicle {
   _id?: string;
+  vin: string;
   registrationNumber: string;
+  vehicleType: string;
   registrationDate: string;
   registrationLocation: string;
   licensePlate: string;
@@ -10,10 +12,8 @@ export interface IVehicle {
   version: string;
   purpose: string;
   width: number;
-  height: number;
-  groundClearance: number;
-  cylinderCapacity: number;
-  torque: number;
-  gearbox: string;
+  length: number;
+  emission: number;
+  mileage: number;
   registrationCenter: string;
 }
