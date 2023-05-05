@@ -13,6 +13,7 @@ export interface IVehicle {
   purpose: string;
   width: number;
   length: number;
+  wheelBase: number;
   emission: number;
   mileage: number;
   registrationCenter: string;
