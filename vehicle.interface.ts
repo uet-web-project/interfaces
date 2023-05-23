@@ -4,6 +4,7 @@ export interface IVehicle {
   registrationNumber: string;
   vehicleType: string;
   registrationDate: string;
+  registrationExpirationDate?: string;
   registrationLocation: string;
   licensePlate: string;
   vehicleOwner: string;
