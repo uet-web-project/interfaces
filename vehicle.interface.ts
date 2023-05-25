@@ -7,7 +7,7 @@ export interface IVehicle {
   registrationExpirationDate?: string;
   registrationLocation: string;
   licensePlate: string;
-  vehicleOwner: string;
+  vehicleOwnerCid: string;
   manufacturer: string;
   model: string;
   version: string;
@@ -17,5 +17,5 @@ export interface IVehicle {
   wheelBase: number;
   emission: number;
   mileage: number;
-  registrationCenter: string;
+  registrationCenterId: string;
 }

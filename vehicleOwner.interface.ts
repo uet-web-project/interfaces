@@ -3,4 +3,7 @@ export interface IVehicleOwner {
   name: string;
   ownerType: string;
   cid?: string;
+  dob: string;
+  address: string;
+  phoneNumber: string;
 }
