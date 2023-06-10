@@ -3,6 +3,8 @@ export interface IRegistrationCenter {
   centerId: string;
   password: string;
   name: string;
+  provinceCode: number;
+  districtCode: number;
   location: string;
   phoneNumber: string;
   registrationDep: string;
