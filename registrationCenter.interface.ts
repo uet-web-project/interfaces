@@ -6,6 +6,7 @@ export interface IRegistrationCenter {
   provinceCode: number;
   districtCode: number;
   location: string;
+  fullAdress?: string;
   phoneNumber: string;
   registrationDep: string;
 }
