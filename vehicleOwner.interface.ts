@@ -7,3 +7,14 @@ export interface IVehicleOwner {
   address: string;
   phoneNumber: string;
 }
+
+export const isIVehicleOwner = (obj: any): obj is IVehicleOwner => {
+  return (
+    obj &&
+    obj.name &&
+    obj.ownerType &&
+    obj.dob &&
+    obj.address &&
+    obj.phoneNumber
+  );
+};

@@ -19,3 +19,26 @@ export interface IVehicle {
   mileage: number;
   registrationCenterId: string;
 }
+
+export const isIVehicle = (obj: any): obj is IVehicle => {
+  return (
+    obj &&
+    obj.vin &&
+    obj.registrationNumber &&
+    obj.vehicleType &&
+    obj.registrationDate &&
+    obj.registrationLocation &&
+    obj.licensePlate &&
+    obj.vehicleOwnerCid &&
+    obj.manufacturer &&
+    obj.model &&
+    obj.version &&
+    obj.purpose &&
+    obj.width &&
+    obj.length &&
+    obj.wheelBase &&
+    obj.emission &&
+    obj.mileage &&
+    obj.registrationCenterId
+  );
+};
